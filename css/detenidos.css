@@ -1,0 +1,232 @@
+*{
+	margin: 0;	/* Margen de la página */
+	padding: 0;	/* Relleno de la página */
+	}
+	
+body{	/* Cuerpo de la página */
+	background: #fff;	/* Color fondo de pantalla */
+	font-family: cambria;	/* Fuente del archivo */
+	}
+	
+.contenedor{	/* Todo el contenido de la página */
+	width: 100%;	/* Controla la anchura del contenedor */
+	max-width: 1155px;	/* Limita la anchura máxima del contenedor */
+	margin: 0 auto;	/* Margen del contenedor */
+	overflow: hidden;	/* El contenedor es recortado y no se muestran barras de posición */
+	}
+	
+.cabecera{	/* Primer cabecera */
+	width: 33.333%;	/* Ancho de la cabecera */
+	background: #f2f2f2;	/* Color fondo de la cabecera */
+	float: left;	/* Se posiciona al lado izquierdo */
+	box-sizing:	border-box;	/* Se ajusta la caja a la página */
+	text-align: center;	/* El contenido del interior se ajusta al centro de la cabecera */
+	border-bottom: #008B64 5px solid;	/* Se le da color y grosor al borde inferior */
+	}
+	
+.cabecera img{	/* Imagen interior de la cabecera */
+	width: auto;	/* Ancho de la imagen en el interior de la cabecera */
+	height: 68px;	/* Alto de la imagen en el interior de la cabecera */
+	}
+
+.tit{
+	width: 33.333%;	/* Ancho de la cabecera */
+	height: 81px;
+	background: #f2f2f2;/* Color fondo de la cabecera */
+	padding: 25px;
+	float: left;	/* Se posiciona al lado izquierdo */
+	box-sizing:	border-box;	/* Se ajusta la caja a la página */
+	text-align: center;	/* El contenido del interior se ajusta al centro de la cabecera */
+	border-bottom: #008B64 5px solid;	/* Se le da color y grosor al borde inferior */
+    }
+	
+.cabecera2{	/* Segunda cabecera2 */
+	width: 33.333%;	/* Ancho de la cabecera2 */
+	background: #f2f2f2;	/* Color fondo de cabecera2 */
+	float: left;	/* Se posiciona al lado izquierdo */
+	box-sizing: border-box;	/* Se ajusta la caja a la página */
+	text-align: center;	/* El contenido del interior se ajusta al centro de la cabecera2 */
+	border-bottom: #624983 5px solid;	/* Se le da color y grosor al borde inferior */
+	}
+
+.cabecera2 img{
+	width: auto;	/* Ancho de la imagen en el interior de la cabecera2 */
+	height: 68px;	/* Alto de la imagen en el interior de la cabecera */
+	}
+
+.men{
+	width: 100%;	/* Ancho de la cabecera */
+	text-align: center;
+	float: center;
+	margin-top: 300;
+	}
+
+.clear{clear:both}	/* Elemento creado sirve para comenzar con un nuevo orden de elementos */
+
+.cal{
+	padding-left: 300px;
+	width: 1000px;
+	height:650px;
+	float: center;
+    padding: 10px 50px 10px;;
+	}
+
+.image{
+	text-align: center;
+	}
+
+.contenido{
+	text-align: center;
+	padding: 1em;
+}
+
+.texto{
+	text-align: center;
+	margin-left: 5px;
+	padding: 0 10em;
+}
+
+
+
+.sec{
+	margin-top: 25px;
+	}
+
+.titsec{
+	text-align: center;
+	color: #384289;
+	}
+
+.divider{
+	position: relative;
+	margin-top: 30px;
+	height: 1px;
+	}
+
+.div-transparent:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+	}
+
+.div-stopper:after
+{
+	content: "";
+	position: absolute;
+	z-index: 1;
+	top: -6px;
+	left: calc(50% - 7px);
+	width: 14px;
+	height: 12px;
+	background-color: white;
+	border-left: 1px solid rgb(48,49,51);
+	border-right: 1px solid rgb(48,49,51);
+}
+
+.subirfor{
+	float: right;
+	padding-right: 550px;
+}
+
+.caja{
+	float: right;
+	padding-right: 550px;
+	margin-right: 200px;
+	height: 100px;
+}
+
+ .titt{
+ 	margin-top: 500px;
+	width: 100%;	/* Ancho de la cabecera */
+	height: 200px; /*largo*/
+	background: #f2f2f2;/* Color fondo de la cabecera */
+	padding: 30px;
+	max-width: 1155px;	/* Limita la anchura máxima del contenedor */
+	margin: 0 auto;	/* Margen del contenedor */
+	overflow: hidden;	/* El contenedor es recortado y no se muestran barras de posición */
+	box-sizing:	border-box;	/* Se ajusta la caja a la página */
+	text-align: center;	/* El contenido del interior se ajusta al centro de la cabecera */
+	border-top: #008B64 5px solid;	/* Se le da color y grosor al borde inferior */
+    }
+
+.twi{
+	color: #33B4FF;
+	padding: 15px;
+	}
+
+.face{
+	color: #3336FF;
+	padding: 15px;
+	}
+
+.youtube{
+	color: #FF5733;
+	padding: 15px;
+	}
+
+.emergencia{
+	margin-top: 50px;
+	padding-bottom: 100px;
+	width: 100%;	/* Ancho de la cabecera2 */
+	background: #FFFFFF;	/* Color fondo de cabecera2 */
+	float: center;	/* Se posiciona al centro */
+	box-sizing: border-box;	/* Se ajusta la caja a la página */
+	text-align: center;	/* El contenido del interior se ajusta al centro de la cabecera2 */
+	}
+
+.emergencia img{
+	width: auto;	/* Ancho de la imagen en el interior de la cabecera2 */
+	height: 100px;	/* Alto de la imagen en el interior de la cabecera */
+	}
+
+
+@media screen and (max-width: 1200px){	/* Condición para ajustar los elementos de la página en un máximo de 1200px de ancho */
+	.cabecera{
+		width: 50%;	/* Cabecera ocupa el 50% del ancho de la página */
+		text-align: center;	/* El contenido del interior se ajusta al centro de la cabecera */
+			}
+		.cabecera img{
+			width: auto;	/* Se ajusta el tamaño de la imagen dentro de cabecera */
+				}
+	.cabecera2{
+		width: 50%;	/* Cabecera2 ocupa el 50% del ancho de la página */
+			}
+		.cabecera2 img{
+			width: auto;	/* Se ajusta el tamaño de la imagen dentro de la cabecera2 */
+			}
+	.menu1{
+		width: 100%;	/* Menu1 ocupa el 100% del ancho de la página */
+		margin-top: 5px;	/* Separa el elemento de la parte superior 5px */
+		}
+	}
+
+
+
+@media screen and (max-width: 1000px){	/* Condición para ajustar los elementos de la página en un máximo de 1000px de ancho */
+	.contenedor{
+		width: 94%;	/* Contenedor adopta un ancho de 94% de toda la página */
+		}
+	}
+
+
+@media screen and (max-width: 455px){	/* Condicion para ajustar los elementos de la página en un máximo de 455px de ancho */
+	.cabecera{
+		width: 70%;	/* Contenedor adopta un ancho de 70% de toda la página */
+		text-align: center;	/* El contenido del interior se ajusta al centro de la cabecera */
+			}
+			.cabecera img{
+			width: auto;	/* Se ajusta el tamaño de la imagen dentro de la cabecera */
+				}
+	.cabecera2{
+		width: 30%;	/* Contenedor adopta un ancho de 30% de toda la página */
+		text-align: center;	/* El contenido del interior se ajusta al centro de la cabecera */
+			}
+	ul li a{
+		font-size: 8px;	/* Fuente se hace pequeña para ser ajustada a la página */
+			}
+	}
